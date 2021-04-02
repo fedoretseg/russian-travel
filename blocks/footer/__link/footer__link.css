@@ -1,0 +1,31 @@
+.footer__link {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 1.12;
+    text-decoration: none;
+	color: #FFFFFF;
+	margin: 0 18px 0 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale; 
+    -webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	text-rendering: optimizeLegibility;
+}
+
+
+.footer__link:nth-last-child(1) {
+	margin: 0 0 0 0;
+}
+
+
+@media (max-width:767px) {
+
+	.footer__link {
+		font-size: 24px;
+		line-height: 1;
+	    margin: 0 0 32px 0;
+	}
+
+}
