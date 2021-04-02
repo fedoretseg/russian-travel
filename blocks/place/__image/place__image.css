@@ -7,7 +7,8 @@
 @media (max-width:1024px) {
 
 	.place__image {
-		max-width: 340px;
+		max-width: 440px;
+		margin-left: 48px;
 	}
 
 }
@@ -15,10 +16,8 @@
 @media (max-width:768px) {
 
 	.place__image {
-		grid-area: 3 / 1 / 5 / 1;
-		width: 100vw;
-		max-width: 768px;
-		margin-left:-24px;
+		max-width: 340px;
+		margin-left: 24px;
 	}
 
 }
@@ -30,7 +29,7 @@
 		grid-area: 3 / 1 / 5 / 1;
 		width: 100vw;
 		max-width: 425px;
-		margin-left:-16px;
+		margin-left: 0;
 	}
 
 }

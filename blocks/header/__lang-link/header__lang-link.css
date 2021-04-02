@@ -8,12 +8,6 @@
 	text-decoration: none;
 }
 
-.header__lang-link:nth-child(1) {
-    margin-right: 18px;
-    border-bottom: 2px solid #ffffff;
-   } 
-
-
 
 @media (max-width:425px) {
 
