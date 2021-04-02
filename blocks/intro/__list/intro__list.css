@@ -1,6 +1,6 @@
 .intro__list {
 	font-style: normal;
-	font-weight: bold;
+	font-weight: 700;
 	font-size: 12px;
 	line-height: 1.5;
 	margin:0;
@@ -12,4 +12,9 @@
 	-ms-text-size-adjust: 100%;
 	-moz-text-size-adjust: 100%;
 	text-rendering: optimizeLegibility; 
+}
+
+.intro__list span {
+	font-style: normal;
+	font-weight: 400;
 }
