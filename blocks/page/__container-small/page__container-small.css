@@ -1,8 +1,14 @@
 .page__container-small {
-	max-width: 984px;
+	width: 984px;
 	margin: 0 auto;
 }
 
+@media (max-width:1280px) {
+
+	.page__container-small {
+		width: calc(100% - 196px);
+	}
+}
 
 @media (max-width:1024px) {
 

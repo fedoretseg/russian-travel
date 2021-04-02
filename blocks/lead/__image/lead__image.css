@@ -1,6 +1,11 @@
 .lead__image {
-	max-width: 984px;
-	margin: 0 auto;
+	/*background-image: url("../../../images/lead-image.svg");*/
+	/*width: 984px;*/
+	/*height:615px;*/
+	/*margin: 0 auto;*/
+	/*background-size: cover;*/
+	display:block;
+	margin:auto;
 }
 
 @media (max-width:1024px) {
