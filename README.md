@@ -7,3 +7,5 @@
 3. Закрепили зания по Flex и БЭМ.
 
 [Ссылка на Github](https://github.com/fedoretseg/russian-travel.git)
+
+[Ссылка на gh-pages](https://fedoretseg.github.io/russian-travel/)
