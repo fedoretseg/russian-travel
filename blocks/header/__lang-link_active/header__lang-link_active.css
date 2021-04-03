@@ -2,3 +2,12 @@
 	margin-right: 18px;
     border-bottom: 2px solid #ffffff;
 }
+
+
+@media (max-width:425px) {
+
+	.header__link {
+		line-height: 92%;
+	}
+
+}
