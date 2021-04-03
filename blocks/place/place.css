@@ -4,7 +4,7 @@
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(5, auto);
     gap: 26px 40px;
-    margin: 0 0 80px 0;
+    margin: 0 0 54px 0;
 }
 
 
@@ -13,7 +13,7 @@
 	.place {
 		width: calc(100% - 96px);
 	    gap: 27px 32px;
-	    margin-bottom: 80px;
+	    margin-bottom: 53px;
 	}
 
 }
@@ -23,7 +23,7 @@
 	.place {
 		width: calc(100% - 48px);
 	    gap: 25px 28px;
-	    margin-bottom: 73px;
+	    margin-bottom: 48px;
 	}
 
 }
@@ -35,7 +35,7 @@
 		grid-template-columns: 100%;
 	    grid-template-rows: repeat(5, auto);
 	    gap: 25px;
-	    margin-bottom: 50px;
+	    margin-bottom: 25px;
 	}
 
 }
