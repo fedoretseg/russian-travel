@@ -1,16 +1,14 @@
 .footer {
-	font-family: "Inter", Arial, sans-serif;
-	display: flex;
+    font-family: "Inter", Arial, sans-serif;
+    display: flex;
     justify-content: space-between;
     color: #ffffff;
 }
 
-@media (max-width:767px) {
-
-	.footer {
-	    flex-direction: column;
-	    justify-content: flex-start;
-	    align-items: flex-start;
-	}
-
+@media (max-width: 767px) {
+    .footer {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
 }

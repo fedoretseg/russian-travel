@@ -1,15 +1,12 @@
 .header__lang {
-	display: flex;
+    display: flex;
     flex-wrap: wrap;
     list-style: none;
-	margin-top:46px;
+    margin-top: 46px;
 }
 
-
-@media (max-width:425px) {
-
-	.header__lang {
-		margin-top:30px;
-	}
-
+@media (max-width: 425px) {
+    .header__lang {
+        margin-top: 30px;
+    }
 }
