@@ -25,6 +25,13 @@
     }
 }
 
+@media (max-width: 970px) {
+    .cover__title {
+        font-size: 55px;
+        padding: 160px 0 32px;
+    }
+}
+
 @media (max-width: 768px) {
     .cover__title {
         padding: 115px 104px 32px;

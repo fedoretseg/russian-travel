@@ -9,7 +9,7 @@
 
 @media (max-width: 1024px) {
     .place {
-        width: calc(100% - 96px);
+        width: calc(100% - 48px);
         gap: 27px 32px;
         margin: 0 0 53px 0;
     }
@@ -17,7 +17,7 @@
 
 @media (max-width: 768px) {
     .place {
-        width: calc(100% - 48px);
+        width: calc(100% - 24px);
         gap: 25px 28px;
         margin: 0 0 48px 0;
     }

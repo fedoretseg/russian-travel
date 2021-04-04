@@ -18,6 +18,13 @@
     }
 }
 
+@media (max-width: 970px) {
+    .cover__subtitle {
+        font-size: 16px;
+        padding: 0 0 135px;
+    }
+}
+
 @media (max-width: 768px) {
     .cover__subtitle {
         padding: 0 204px 115px;
