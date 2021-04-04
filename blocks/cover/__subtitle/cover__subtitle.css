@@ -4,29 +4,40 @@
     font-size: 18px;
     line-height: 1.22;
     text-align: center;
-    padding: 0 0 245px;
+    padding: 0 412px 245px;
     max-width: 360px;
     margin-block-start: 0;
     margin-block-end: 0;
     margin: 0 auto;
 }
 
+
 @media (max-width: 1024px) {
     .cover__subtitle {
-        padding-bottom: 195px;
+        padding: 0 332px 195px;
     }
 }
 
 @media (max-width: 768px) {
     .cover__subtitle {
-        padding-bottom: 115px;
+        padding: 0 204px 115px;
+    }
+}
+
+@media (max-width: 767px) {
+    .cover__subtitle {
+        max-width: 300px;
+        padding: 0 10px 35px;
+        font-size: 15px;
+        line-height: 1.17;
+        box-sizing: border-box;
     }
 }
 
 @media (max-width: 425px) {
     .cover__subtitle {
         max-width: 288px;
-        padding-bottom: 33px;
+        padding: 0 16px 33px;
         font-size: 14px;
         line-height: 1.14;
     }

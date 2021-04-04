@@ -1,6 +1,7 @@
 .cover__link {
     max-width: 1184px;
     position: relative;
+    background-position:center;
     text-decoration: none;
     background-image: url(../../../images/cover-trains.jpg);
     background-size: cover;

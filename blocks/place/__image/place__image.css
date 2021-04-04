@@ -18,11 +18,17 @@
     }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 767px) {
     .place__image {
         grid-area: 3 / 1 / 5 / 1;
         width: 100vw;
-        max-width: 425px;
+        max-width: 767px;
         margin-left: 0;
+    }
+}
+
+@media (max-width: 425px) {
+    .place__image {
+        max-width: 425px;
     }
 }

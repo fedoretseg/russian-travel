@@ -19,16 +19,16 @@
 
 @media (max-width: 1024px) {
     .lead__title {
-        margin: 48px auto 32px auto;
+        margin-top: 48px;
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
     .lead__title {
-        max-width: 720px;
-        font-size: 96px;
-        line-height: 86%;
-        margin: 48px auto 16px auto;
+        max-width: 350px;
+        font-size: 50px;
+        line-height: 107%;
+        margin-bottom: 16px;
     }
 }
 
@@ -37,6 +37,5 @@
         max-width: 288px;
         font-size: 40px;
         line-height: 110%;
-        margin: 48px auto 16px auto;
     }
 }

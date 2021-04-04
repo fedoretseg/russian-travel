@@ -13,7 +13,3 @@
     -moz-text-size-adjust: 100%;
     text-rendering: optimizeLegibility;
 }
-
-.intro__list span {
-    font-weight: 400;
-}

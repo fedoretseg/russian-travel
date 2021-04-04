@@ -10,8 +10,14 @@
     }
 }
 
+@media (max-width: 767px) {
+    .place__website {
+        margin:0 0 10px 24px;
+    }
+}
+
 @media (max-width: 425px) {
     .place__website {
-        margin-bottom: 7px;
+        margin:0 0 7px 16px;
     }
 }

@@ -1,17 +1,17 @@
 .place {
-    width: 984px;
+    max-width: 984px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(5, auto);
     gap: 26px 40px;
-    margin: 0 0 54px 0;
+    margin: 0 auto 54px auto;
 }
 
 @media (max-width: 1024px) {
     .place {
         width: calc(100% - 96px);
         gap: 27px 32px;
-        margin-bottom: 53px;
+        margin: 0 0 53px 0;
     }
 }
 
@@ -19,16 +19,23 @@
     .place {
         width: calc(100% - 48px);
         gap: 25px 28px;
-        margin-bottom: 48px;
+        margin: 0 0 48px 0;
+    }
+}
+
+@media (max-width: 767px) {
+    .place {
+        width: 100%;
+        grid-template-columns: 100%;
+        grid-template-rows: repeat(5, auto);
+        gap: 27px;
+        margin: 0 0 50px 0;
     }
 }
 
 @media (max-width: 425px) {
     .place {
-        width: 100%;
-        grid-template-columns: 100%;
-        grid-template-rows: repeat(5, auto);
         gap: 25px;
-        margin-bottom: 25px;
+        margin: 0 0 25px 0;
     }
 }
