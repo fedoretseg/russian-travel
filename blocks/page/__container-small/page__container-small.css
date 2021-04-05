@@ -5,18 +5,18 @@
 
 @media (max-width: 1024px) {
     .page__container-small {
-        width: calc(100% - 96px);
+        width: calc(100% - 48px);
     }
 }
 
 @media (max-width: 768px) {
     .page__container-small {
-        width: calc(100% - 48px);
+        width: calc(100% - 24px);
     }
 }
 
 @media (max-width: 425px) {
     .page__container-small {
-        width: calc(100% - 32px);
+        width: calc(100% - 16px);
     }
 }

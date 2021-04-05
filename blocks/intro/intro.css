@@ -1,4 +1,25 @@
 .intro {
     font-family: "Inter", Arial, sans-serif;
     color: #ffffff;
+    width: 984px;
+    margin: 0 auto;
+}
+
+
+@media (max-width: 1024px) {
+    .intro {
+        width: calc(100% - 96px);
+    }
+}
+
+@media (max-width: 768px) {
+    .intro {
+        width: calc(100% - 48px);
+    }
+}
+
+@media (max-width: 425px) {
+    .intro {
+        width: calc(100% - 32px);
+    }
 }
