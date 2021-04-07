@@ -9,6 +9,18 @@
     }
 }
 
+@media (max-width: 1279px) {
+    .page__container-big {
+        width: calc(100% - 48px);
+    }
+}
+
+@media (max-width: 1024px) {
+    .page__container-big {
+        width: calc(100% - 96px);
+    }
+}
+
 @media (max-width: 768px) {
     .page__container-big {
         width: calc(100% - 48px);

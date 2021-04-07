@@ -15,6 +15,13 @@
     }
 }
 
+@media (max-width: 1023px) {
+    .place {
+        width: calc(100% - 48px);
+        gap: 27px 30px;
+    }
+}
+
 @media (max-width: 768px) {
     .place {
         width: calc(100% - 24px);
@@ -29,13 +36,12 @@
         grid-template-columns: 100%;
         grid-template-rows: repeat(5, auto);
         gap: 27px;
-        margin: 0 0 50px 0;
     }
 }
 
 @media (max-width: 425px) {
     .place {
         gap: 25px;
-        margin: 0 0 25px 0;
+        margin: 0 0 50px 0;
     }
 }

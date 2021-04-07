@@ -16,10 +16,16 @@
     text-rendering: optimizeLegibility;
 }
 
+@media (max-width: 1024px) {
+    .intro__title {
+        margin-top: 92px;
+    }
+}
+
 @media (max-width: 768px) {
     .intro__title {
         max-width: 720px;
-        margin-top: 110px;
+        margin-top: 88px;
     }
 }
 
@@ -28,6 +34,6 @@
         max-width: 288px;
         font-size: 32px;
         line-height: 1.09;
-        margin-top: 86px;
+        margin-top: 64px;
     }
 }
