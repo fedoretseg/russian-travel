@@ -25,14 +25,12 @@
 
 @media (max-width: 1023px) {
     .cover__subtitle {
-        font-size: 16px;
         padding: 0 0 155px;
     }
 }
 
 @media (max-width: 970px) {
     .cover__subtitle {
-        font-size: 16px;
         padding: 0 0 135px;
     }
 }
